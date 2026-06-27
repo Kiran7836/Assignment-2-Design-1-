@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f8f8f8;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #f0f0f0;
+  
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.left h1 {
+  align-items: center;
+  font-size:58px;
+    line-height:1;
+  font-weight:500;
+  color: #4E090C;
+  margin: 0;
+}
+
+.left img {
+  width: 60px;
+  mix-blend-mode: multiply; /*remove the image background color*/
+  margin: 45px 20px 45px 20px;
+}
+
+.left p {
+  width: 400px;
+  color: #666;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  font-size: 14px;
+  margin: 30px;
+
+}
+ 
+
+.mid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.mid h2 span{
+  margin-right: 50px;
+font-size:58px;
+    line-height:0.95;
+  font-weight:500;
+  color:#AA9696;
+}
+ 
+.mid h2{
+font-size:58px;
+    line-height:0.95;
+  font-weight:500;
+  color:#4E090C;
+}
+
+.box {
+  display: flex;
+  position: relative;
+}
+
+.box p {
+  padding: 20px;
+  position: absolute;
+  left: 520px;
+  color:#4E090C;
+}
+
+h2 {
+  font-size: 60px;
+  line-height: 1;
+  color: #4d1f1f;
+  margin: 0;
+}
+
+.light {
+  color: rgba(77, 31, 31, 0.25);
+}
+
+
+.image-box {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.image-box img {
+    width: 250px;
+    height: 320px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.image-box p {
+   font-size: 18px;
+  line-height: 1.25;
+  color: #4d1f1f;
+  text-decoration: underline;
+margin: 60px;
+
+
+}
+.bottom{
+
+    margin-top:90px;
+
+    text-align:center;
+
+}
+
+.bottom h2{
+
+    font-size:62px;
+
+    line-height:0.95;
+
+    color:#4b1114;
+
+    font-weight:500;
+
+}
+
+.bottom span{
+
+    color:#bcaeae;
+}
+
+.bottom p{
+    width:540px;
+    margin:20px auto;
+    color:#666;
+    line-height:1.6;
+    font-size:14px;
+
+}
